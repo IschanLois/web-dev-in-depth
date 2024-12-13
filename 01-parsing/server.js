@@ -1,6 +1,8 @@
 const { createServer } = require('http');
 const { readFileSync } = require('fs')
 
+const includeCss = !process.argv.includes('--no-css')
+
 const serveFile = (res, file, headers) => {
   try {
     const content = readFileSync(file, 'utf8')
@@ -18,8 +20,6 @@ const serveFile = (res, file, headers) => {
     res.write('Internal Server Error')
   }
 }
-
-const includeCss = !process.argv.includes('--no-css')
 
 createServer((req, res) => {
   if (req.url === '/') {
