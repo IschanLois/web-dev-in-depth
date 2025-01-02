@@ -26,3 +26,22 @@ https://developer.mozilla.org/en-US/docs/Learn/
 5. **Web Server**
    - A machine that host websites.
    - Basically, where web data comes from.
+6. **Domain names**
+   - Human readable-address (for IP address) for any web server available on the internet.
+   - **Top-Level Domain**
+      - The general purpose of the service behind the domain name.
+      - `.com`, `.org`, `.edu`
+   - **Label** -> Subdomains
+7. **URL**
+   - Used to identify a specific `web resource`
+   - `Protocol` - Protocol for resource sharing
+   - `Authority` -> Domain Name and Port
+   - `Path` -> Used to be a physical file location on the server, now just an abstraction for locating a resources.
+   - `Parameters` -> Provide extra values to web servers
+   - `Anchor` -> Bookmark to a part of a resource (a time bookmark for videos or a section bookmark for html documents).
+      - The `fragment identifier` (after `#`) is not sent to the server (responsibility of the browser)
+```
+Protocol://DomainName:Port/Path?Parameter=value#Anchor
+```
+   
+
