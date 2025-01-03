@@ -5,7 +5,11 @@ A repo compiling my notes and practical exercises on studying fundamental web de
 ## Topics
 
 1. 01-parsing
-   - Covers how web browsers parses web components (html/css/javascript)
+   - Covers how web browsers parses web components (html/css/javascript),
+2. 02-url
+   - Covers Absolute vs. Relative URL,
+3. 03-dynamic-server
+   - Covers basic dynamic content generation for websites.
 
 ## Resources
 
@@ -43,5 +47,14 @@ https://developer.mozilla.org/en-US/docs/Learn/
 ```
 Protocol://DomainName:Port/Path?Parameter=value#Anchor
 ```
+8. **Static Content**
+   - Files that are served `as-is`.
+9. **Dyanmic Content**
+   - Flexibility with the content to be served.
+   - Documents may be generated on the fly.
+8. **Static Web Server**
+   - An HTTP server that serves hosted files as-is (static content).
+9. **Dynamic Web Server**
+   - Static web server + extra software (application server and database) to serve dynamic content.
    
 

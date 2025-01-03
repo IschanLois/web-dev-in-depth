@@ -1,8 +1,6 @@
 const { createServer } = require('http');
 const { readFileSync } = require('fs')
 
-const includeCss = !process.argv.includes('--no-css')
-
 const serveFile = (res, file, headers) => {
   try {
     const content = readFileSync(file, 'utf8')
