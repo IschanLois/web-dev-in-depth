@@ -10,6 +10,10 @@ A repo compiling my notes and practical exercises on studying fundamental web de
    - Covers Absolute vs. Relative URL,
 3. 03-dynamic-server
    - Covers basic dynamic content generation for websites.
+4. 04-html
+   - Covers the structure of an HTML document
+   1. 01-head
+      - Covers the HTML elements found within the `<head>` tag.
 
 ## Resources
 
