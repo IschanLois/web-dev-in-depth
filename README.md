@@ -14,6 +14,10 @@ A repo compiling my notes and practical exercises on studying fundamental web de
    - Covers the structure of an HTML document
    1. 01-head
       - Covers the HTML elements found within the `<head>` tag.
+   2. 02-headings-and-paragraphs
+      - Covers structuring an HTML document using HEADINGS (e.g. `<h1>`) and paragraphs (`<p>`)
+   3. 03-emphasis
+      - Covers HTML tags that can be used for emphasis (`<em>`) and importance (`<strong>`)
 
 ## Resources
 
