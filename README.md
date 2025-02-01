@@ -18,6 +18,10 @@ A repo compiling my notes and practical exercises on studying fundamental web de
       - Covers structuring an HTML document using HEADINGS (e.g. `<h1>`) and paragraphs (`<p>`)
    3. 03-emphasis
       - Covers HTML tags that can be used for emphasis (`<em>`) and importance (`<strong>`)
+   4. 04-list
+      - Covers HTML tags for lists (e.g `<ol>`).
+   5. 05-structuring-documents
+      - Covers HTML tags that can be used to structure a document such as `<header>`, `<main>`, and `<footer>`
 
 ## Resources
 
