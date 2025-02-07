@@ -31,6 +31,18 @@ For more context, see [URL section](../../02-url)
 </a>
 ```
 
+## Supporting information
+- the `title` attribute will be shown as a tooltip
+```HTML
+<a
+  href="some-url-to-non-html-file"
+  title="some information about link"
+  >
+  Download file
+</a>
+
+```
+
 ## Email links
 - using `mailto:`
 - open user`s email client outgoing email window
