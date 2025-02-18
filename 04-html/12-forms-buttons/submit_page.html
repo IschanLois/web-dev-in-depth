@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+</head>
+<body>
+  <h1>Profile</h1>
+  <p id="name">
+    <strong>Name:</strong>
+  </p>
+  <p id="email">
+    <strong>Email:</strong>
+  </p>
+  <p id="tel">
+    <strong>Number:</strong>
+  </p>
+  <p id="quote">
+    <strong>Favorite Quote:</strong>
+  </p>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search)
+    const myParam = urlParams.get('myParam')
+
+    document
+      .getElementsByTagName('body')[0]
+      .setAttribute('style', `background-color: ${urlParams.get('color')}`)
+    
+    document.getElementById('name').append(`${urlParams.get('name')}`)
+    document.getElementById('email').append(`${urlParams.get('email')}`)
+    document.getElementById('tel').append(`${urlParams.get('tel')}`)
+    document.getElementById('quote').append(`${urlParams.get('quote')}`)
+  </script>
+</body>
+</html>

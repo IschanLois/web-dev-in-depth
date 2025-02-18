@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Media</title>
+</head>
+<body>
+  <form action="./submit_page.html" method="get">
+    <h2>Enter</h2>
+    <fieldset>
+      <legend>User information</legend>
+      <p>
+        <label for="name">Name (required):</label>
+        <input type="text" name="name" id="name" required />
+      </p>
+      <p>
+        <label for="email">Email (required):</label>
+        <input type="email" name="email" id="email" required />
+      </p>
+      <p>
+        <label for="tel">Telephone Number (required):</label>
+        <input type="tel" name="tel" id="tel" required />
+      </p>
+    </fieldset>
+    <fieldset>
+      <legend>Custom Profile</legend>
+      <p>
+        <label for="color">Favorite Color:</label>
+        <input type="color" name="color" id="color" required />
+      </p>
+      <p>
+        <label for="quote">Favorite Quote:</label>
+        <textarea name="quote" id="quote" cols="20" rows="3"></textarea>
+      </p>
+    </fieldset>
+    <p>
+      <button type="submit">Sign me up!</button>
+    </p>
+  </form>
+</body>
+</html>
